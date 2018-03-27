@@ -1,0 +1,451 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FF7C150A206931270001E3AE /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FF7C1509206931270001E3AE /* AppDelegate.m */; };
+		FF7C150D206931270001E3AE /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FF7C150C206931270001E3AE /* ViewController.m */; };
+		FF7C1510206931270001E3AE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FF7C150E206931270001E3AE /* Main.storyboard */; };
+		FF7C1512206931270001E3AE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FF7C1511206931270001E3AE /* Assets.xcassets */; };
+		FF7C1515206931270001E3AE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FF7C1513206931270001E3AE /* LaunchScreen.storyboard */; };
+		FF7C1518206931270001E3AE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FF7C1517206931270001E3AE /* main.m */; };
+		FF7C1522206931270001E3AE /* CustomHeartAnimationUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = FF7C1521206931270001E3AE /* CustomHeartAnimationUITests.m */; };
+		FF7C152E20694D980001E3AE /* UIImageView+HeartAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = FF7C152D20694D970001E3AE /* UIImageView+HeartAnimation.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FF7C151E206931270001E3AE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FF7C14FD206931270001E3AE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FF7C1504206931270001E3AE;
+			remoteInfo = CustomHeartAnimation;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FF7C1505206931270001E3AE /* CustomHeartAnimation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CustomHeartAnimation.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FF7C1508206931270001E3AE /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		FF7C1509206931270001E3AE /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		FF7C150B206931270001E3AE /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		FF7C150C206931270001E3AE /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		FF7C150F206931270001E3AE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FF7C1511206931270001E3AE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FF7C1514206931270001E3AE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FF7C1516206931270001E3AE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FF7C1517206931270001E3AE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		FF7C151D206931270001E3AE /* CustomHeartAnimationUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CustomHeartAnimationUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FF7C1521206931270001E3AE /* CustomHeartAnimationUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CustomHeartAnimationUITests.m; sourceTree = "<group>"; };
+		FF7C1523206931270001E3AE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FF7C152C20694D970001E3AE /* UIImageView+HeartAnimation.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIImageView+HeartAnimation.h"; sourceTree = "<group>"; };
+		FF7C152D20694D970001E3AE /* UIImageView+HeartAnimation.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIImageView+HeartAnimation.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FF7C1502206931270001E3AE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FF7C151A206931270001E3AE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FF7C14FC206931270001E3AE = {
+			isa = PBXGroup;
+			children = (
+				FF7C1507206931270001E3AE /* CustomHeartAnimation */,
+				FF7C1520206931270001E3AE /* CustomHeartAnimationUITests */,
+				FF7C1506206931270001E3AE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FF7C1506206931270001E3AE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FF7C1505206931270001E3AE /* CustomHeartAnimation.app */,
+				FF7C151D206931270001E3AE /* CustomHeartAnimationUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FF7C1507206931270001E3AE /* CustomHeartAnimation */ = {
+			isa = PBXGroup;
+			children = (
+				FF7C1508206931270001E3AE /* AppDelegate.h */,
+				FF7C1509206931270001E3AE /* AppDelegate.m */,
+				FF7C150B206931270001E3AE /* ViewController.h */,
+				FF7C150C206931270001E3AE /* ViewController.m */,
+				FF7C152C20694D970001E3AE /* UIImageView+HeartAnimation.h */,
+				FF7C152D20694D970001E3AE /* UIImageView+HeartAnimation.m */,
+				FF7C150E206931270001E3AE /* Main.storyboard */,
+				FF7C1511206931270001E3AE /* Assets.xcassets */,
+				FF7C1513206931270001E3AE /* LaunchScreen.storyboard */,
+				FF7C1516206931270001E3AE /* Info.plist */,
+				FF7C1517206931270001E3AE /* main.m */,
+			);
+			path = CustomHeartAnimation;
+			sourceTree = "<group>";
+		};
+		FF7C1520206931270001E3AE /* CustomHeartAnimationUITests */ = {
+			isa = PBXGroup;
+			children = (
+				FF7C1521206931270001E3AE /* CustomHeartAnimationUITests.m */,
+				FF7C1523206931270001E3AE /* Info.plist */,
+			);
+			path = CustomHeartAnimationUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FF7C1504206931270001E3AE /* CustomHeartAnimation */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FF7C1526206931270001E3AE /* Build configuration list for PBXNativeTarget "CustomHeartAnimation" */;
+			buildPhases = (
+				FF7C1501206931270001E3AE /* Sources */,
+				FF7C1502206931270001E3AE /* Frameworks */,
+				FF7C1503206931270001E3AE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CustomHeartAnimation;
+			productName = CustomHeartAnimation;
+			productReference = FF7C1505206931270001E3AE /* CustomHeartAnimation.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FF7C151C206931270001E3AE /* CustomHeartAnimationUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FF7C1529206931270001E3AE /* Build configuration list for PBXNativeTarget "CustomHeartAnimationUITests" */;
+			buildPhases = (
+				FF7C1519206931270001E3AE /* Sources */,
+				FF7C151A206931270001E3AE /* Frameworks */,
+				FF7C151B206931270001E3AE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FF7C151F206931270001E3AE /* PBXTargetDependency */,
+			);
+			name = CustomHeartAnimationUITests;
+			productName = CustomHeartAnimationUITests;
+			productReference = FF7C151D206931270001E3AE /* CustomHeartAnimationUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FF7C14FD206931270001E3AE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = jasonchen;
+				TargetAttributes = {
+					FF7C1504206931270001E3AE = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					FF7C151C206931270001E3AE = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = FF7C1504206931270001E3AE;
+					};
+				};
+			};
+			buildConfigurationList = FF7C1500206931270001E3AE /* Build configuration list for PBXProject "CustomHeartAnimation" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FF7C14FC206931270001E3AE;
+			productRefGroup = FF7C1506206931270001E3AE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FF7C1504206931270001E3AE /* CustomHeartAnimation */,
+				FF7C151C206931270001E3AE /* CustomHeartAnimationUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FF7C1503206931270001E3AE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FF7C1515206931270001E3AE /* LaunchScreen.storyboard in Resources */,
+				FF7C1512206931270001E3AE /* Assets.xcassets in Resources */,
+				FF7C1510206931270001E3AE /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FF7C151B206931270001E3AE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FF7C1501206931270001E3AE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FF7C150D206931270001E3AE /* ViewController.m in Sources */,
+				FF7C1518206931270001E3AE /* main.m in Sources */,
+				FF7C152E20694D980001E3AE /* UIImageView+HeartAnimation.m in Sources */,
+				FF7C150A206931270001E3AE /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FF7C1519206931270001E3AE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FF7C1522206931270001E3AE /* CustomHeartAnimationUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FF7C151F206931270001E3AE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FF7C1504206931270001E3AE /* CustomHeartAnimation */;
+			targetProxy = FF7C151E206931270001E3AE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FF7C150E206931270001E3AE /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FF7C150F206931270001E3AE /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FF7C1513206931270001E3AE /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FF7C1514206931270001E3AE /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FF7C1524206931270001E3AE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		FF7C1525206931270001E3AE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FF7C1527206931270001E3AE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = D72K628K4F;
+				INFOPLIST_FILE = CustomHeartAnimation/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.jasonchen.CustomHeartAnimation;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FF7C1528206931270001E3AE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = D72K628K4F;
+				INFOPLIST_FILE = CustomHeartAnimation/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.jasonchen.CustomHeartAnimation;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		FF7C152A206931270001E3AE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = D72K628K4F;
+				INFOPLIST_FILE = CustomHeartAnimationUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.jasonchen.CustomHeartAnimationUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = CustomHeartAnimation;
+			};
+			name = Debug;
+		};
+		FF7C152B206931270001E3AE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = D72K628K4F;
+				INFOPLIST_FILE = CustomHeartAnimationUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.jasonchen.CustomHeartAnimationUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = CustomHeartAnimation;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FF7C1500206931270001E3AE /* Build configuration list for PBXProject "CustomHeartAnimation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FF7C1524206931270001E3AE /* Debug */,
+				FF7C1525206931270001E3AE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FF7C1526206931270001E3AE /* Build configuration list for PBXNativeTarget "CustomHeartAnimation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FF7C1527206931270001E3AE /* Debug */,
+				FF7C1528206931270001E3AE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FF7C1529206931270001E3AE /* Build configuration list for PBXNativeTarget "CustomHeartAnimationUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FF7C152A206931270001E3AE /* Debug */,
+				FF7C152B206931270001E3AE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FF7C14FD206931270001E3AE /* Project object */;
+}
